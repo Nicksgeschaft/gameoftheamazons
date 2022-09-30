@@ -1,0 +1,328 @@
+body{
+  margin: 0;
+  padding: 0;
+  background:url(../pictures/amazonessvillage-tf05-jp-vg.png);
+  
+  background-size: cover;
+
+  background-position: 0;
+  font-family: sans-serif; 
+  background-color: #000;
+}
+
+
+.sidenav {
+    height: 100%;
+    width: 20%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-image: linear-gradient(to right, #F7B116, #D45613);
+    overflow-x: hidden;
+    padding-top: 10%;
+  }
+  .sidenav h1 {
+    padding: 10% 5% 10% 5%;
+    font-size: 90%;
+    color: #000(124, 91, 91);
+  }
+  .sidenav h2 {
+    text-align: center;
+    padding: 5% 5% 5% 5% ;
+    font-size: 50%;
+    color: black;
+  }
+ 
+  
+  .sidenav button{
+    display: flex;
+    box-sizing: border-box;
+    line-height: 28.45px;
+    position: relative;
+    margin: 10% 5% 5%;
+    background-color: #D45613;
+    height: 10%;
+    width: 90%;
+    font-size: 70%;
+
+  }
+  .sidenav button:hover{
+    background-color: #7A2802;
+
+  }
+ 
+  
+   
+  .openGames {
+    width: 50%;
+    height: 80%;
+    overflow-y: auto;
+  }
+  .openGames a {
+    background-color: #eee;
+    color: black;
+    display: block;
+    padding: 12px;
+    text-decoration: none;
+  }
+  .openGames a:hover{
+    background-color: #ccc;
+  }
+  .newGame{
+    background-color: green;
+    color: #eee;
+    display: block;
+    padding: 12px;
+    text-decoration: none;
+    
+  }
+  .newGame:hover{
+    background-color:darkgreen;
+    color: #eee;
+  }
+  .visually-hidden{
+    position: absolute;
+    height: 1px;
+    width: 1px;
+    overflow: hidden;
+    clip: rect(1px 1px 1px 1px);
+    clip: rect(1px, 1px, 1px, 1px);
+    white-space: nowrap;
+  }
+  .CGame {
+  
+    text-align: left;
+    border: 3px solid #7A2802;
+    margin-left: 25%;
+    background-color: #FC860F;
+    width: 50%;
+    top: 30px;
+    border-radius: 8px;
+    font-size: 40%;
+    text-align: center;
+    font-weight: 70%;
+    padding: 1%;
+    
+    /*
+    flex-direction: column;
+*/
+
+  }
+  .CGame input{
+    background-color: #ccc;
+  }
+
+  .input{
+    grid-column: 1;
+    grid-row: 1 / span 2;
+    align-items: center;
+  }
+
+  .CGame input[type="button"]{
+    margin-top: 2%;
+    margin-bottom: 2%;
+    background-color: #D45613;
+    border-radius: 5px;
+    align-items: center;
+  }
+  .CGame input[type="button"]:hover{
+    background-color: #7A2802;
+  }
+  .submitbutton{
+    grid-column: 2;
+    grid-row: 1;
+  }
+  .chooseAmazon{
+    grid-column: 2;
+    grid-row: 2;
+  }
+  .create{
+    grid-column: 1 / span 2;
+    grid-row: 3;
+  }
+
+
+
+  .createGame{
+    
+    background-color: #D45613;
+    border-radius: 5px;
+    width: 60%;
+    font-size: 300%;
+  }
+  .createGame:hover{
+    background-color: #7A2802;
+  }
+  .CreateGame{
+    font-size: 140%;
+    color: white;
+    background-color: #D45613;
+    border-radius: 8px;
+  }
+ 
+  .error {
+    font-size: 80%;
+
+  }
+  form .form-inner {
+    position: relative;
+    display: block;
+    background-color: #FC860F;
+    padding: 10%;
+    z-index: 2;
+    border-radius: 18px;
+  }
+  form .form-inner h2 {
+    font-size: 60%;
+    
+    margin-bottom: 20%;
+  }
+  form .form-inner .form-group {
+    display: block;
+    width: 80%;
+    margin-bottom:10%;
+  }
+  .form-inner .form-group label {
+    display: block;
+    font-size: 60%;
+    margin-bottom: 5px;
+    transition: 0.4s;
+  } 
+  .form-inner .form-group:focus-within label{
+    color:#7A2802;
+  }
+  
+  form .form-inner .form-group input:focus {
+    box-shadow: 0px 0px 3px;
+  }
+  form .form-inner .form-group input {
+    display: block;
+    width: 100%;
+    padding: 5% 15%;
+    background-color: #ccc;
+    border-radius: 8px;
+    transition: 0.4s;
+  }
+  form .form-inner input[type="password"] {
+    height: 30%;
+    box-shadow: 0px 0px 3px;
+  }
+  form .form-inner input[type="submit"] {
+    display: flex;
+    box-sizing: border-box;
+    
+    position: relative;
+    margin: 10% 10%;
+    background-color: #D45613;
+    height: 30%;
+    width: 90%;
+    font-size: 80%;
+  }
+.gamelist{
+  position:relative;
+  margin-left: 5%;
+  margin-right: 5%;
+  overflow: auto;
+  height: 60%;
+  margin-top: 2%;
+}
+.OpenGames{
+  
+  position: fixed;
+  margin-left: 30%;
+  margin-top: 5%;
+  margin-bottom: 10%;
+  width: 40%;
+  background-image: linear-gradient(to right, #F7B116, #D45613);
+  height: 100%;
+  background-size: 100%;
+  transition: 0.4s;
+  color: #FFF;
+  
+  text-align: center;
+  padding-bottom: 20%;
+
+}
+.OpenGames li{
+  margin-left: 10%;
+  text-align: left; 
+ 
+}
+.OpenGames a{
+    position: static;
+    color: black;
+
+}
+.OpenGames a:hover{
+  position: static;
+  color: rgb(51, 44, 44);
+  
+
+}
+
+.sidebarright {
+  height: 100%;
+  right:0px;
+  top: 0%;
+  position:fixed;
+  width: 20%;
+  background-image: linear-gradient(to right,#D45613, #F7B116 );
+  background-size: 100%;
+  text-align: center;
+  padding-top: 2%;
+  font-size: 80%;
+  overflow: scroll;
+  
+  
+    
+}
+
+.sidebarright li{
+  margin-left: 15%;
+  text-align: left;
+ 
+ 
+}
+.sidebarright li:hover{
+  color: gray;
+}
+.CGame .back{
+  position: absolute;
+  right: 25%;
+  top: -1%;
+  z-index: 2;
+}
+.currentBoard {
+  z-index: 2;
+  position:absolute;
+  left: 0;
+  height: 50%;
+  /* top: 80%; */
+  grid-row: 3;
+  grid-column: 2;
+  
+}
+
+.settingswindow {
+  position: relative;
+  display: grid;
+  grid-template-columns: 45% 55%;
+
+}
+.submit {
+  display: flex;
+  box-sizing: border-box;
+  
+  position: relative;
+  margin: 10% 10%;
+  background-color: #D45613;
+  height: 30%;
+  width: 90%;
+  font-size: 80%;
+}
+
+.grayed input[type=button]{
+  background-color: gray;
+}
+  

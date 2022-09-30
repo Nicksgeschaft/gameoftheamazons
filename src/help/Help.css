@@ -1,0 +1,47 @@
+﻿
+.tutorial {
+    box-sizing:content-box;
+    position:fixed;
+    background: #000000;
+    top: 7.5%;
+    left: 7.5%;
+    width: 85%;
+    height: 85%;
+    opacity:85%;
+    overflow: scroll;
+}
+.text{
+    opacity:100%;
+    color:aliceblue;
+    align-content:baseline;
+    margin:5%;
+}
+.button {
+    top: 85%;
+    position:fixed;
+    border: none;
+    width: 50%;
+    border: 1px solid #fff;
+    background: transparent;
+    outline:solid;
+    height: 5%;
+    text-align: center;
+    font-size: 80%;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    align-content:center;
+    left: 25%
+}
+.button:hover {
+    cursor: pointer;
+    background: #ffc107;
+    color: #000;
+}
+.howtocreate{
+    height: 200px;
+    overflow: scroll;
+}
+.howtocreate p{
+    font-size: 60%;
+}

@@ -1,0 +1,211 @@
+body {
+    font-family: sans-serif;
+    font-size: 140%;
+}
+
+.board {
+    /* width: 1000px;
+    height: 1000px;  */
+    width: 100%;
+    height: 100%;
+    border: 10% solid #333;
+    left: 25%;
+    position: absolute;
+}
+
+.box {
+    
+    float: left;
+    /* width:10%;
+    height: 10%; */
+    
+    
+    font-size: 100%;
+    
+}
+
+.outer-container {
+    display: grid;
+    grid-auto-flow: column;
+}
+
+
+
+/** ####################################################### */
+
+.black {
+    background-color: #999;
+}
+
+.white {
+    background-color: #fff;
+}
+
+.box.selected {
+    background-color: yellow;
+    cursor: pointer;
+}
+
+.box.arrowselected {
+    background-color: greenyellow;
+    cursor: pointer;
+}
+
+.box.ready {
+    background-color: green;
+}
+
+.box.potential {
+    background-color: lightskyblue;
+    border: 0.1px solid rgb(24, 155, 236);
+}
+
+.box.not-allowed {
+    background: coral;
+}
+
+.box.pointer {
+    cursor: pointer;
+}
+
+/** ####################################################### */
+
+.message {
+    position: absolute;
+    width: 80%;
+    left: calc(-142px + 50vw);
+    top: calc(-10px + 50vh);
+    text-align: center;
+    padding: 10% 50%;
+}
+
+.message.white-wins {
+    display: none;
+    background: white;
+    color: black;
+    box-shadow: 0 0 150px 75px black;
+
+}
+
+.message.black-wins {
+    display: none;
+    background: black;
+    color: white;
+    box-shadow: 0 0 150px 75px white;
+}
+
+.pieceblack {
+    background: url(../pictures/Amazoness1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.piecewhite {
+    background: url(../pictures/Amazoness2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.pieceblackselect {
+    background: url(../pictures/Amazoness1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.piecewhiteselect {
+    background: url(../pictures/Amazoness2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.arrow {
+    background: url(../pictures/Arrow.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.Ui {
+    position: fixed;
+    width: 20%;
+    height: 100%;
+    background-image: linear-gradient(to right,#D45613, #F7B116 );
+    color: #fff;
+     /* border: 3px solid red; */
+    left: 0;
+    top:0;
+   
+    position: fixed; 
+    /* transform: translate(-50%, -50%); */
+    /* box-sizing: border-box;  */
+     /* padding: 20px 10px;  */
+}
+
+.grid-container{
+    display: grid;    
+    width: 100%;
+    height: 100%;
+    align-content: space-evenly;
+}
+
+.grid-item{
+    margin-left: 10%;
+    width: 80%;
+    height: 25%;
+    left: 10%;
+    
+}
+
+.currentPlayerone {
+    color: red;
+    font-size: 80%;
+}
+
+.currentPlayerone {
+    color: blue;
+    font-size: 80%;
+    font-weight: bold;
+}
+
+.CurrentPlayer {
+    color: black;
+    font-size: 70%;
+    font-weight: bold;
+}
+
+.resetGame {
+    top: 70%;
+    position: relative;
+    border: none;
+    width: 80%;
+    margin-bottom: 20%;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 320%;
+    font-size: 80%;
+    border-radius: 10%;
+    background-color: black;
+    color: white;
+}
+
+.resetGame.help {
+    top: 75%;
+}
+
+.resetGame:hover {
+    cursor: pointer;
+    background: #ffc107;
+    color: #000;
+}
+
+
+
+
+
+      
+
