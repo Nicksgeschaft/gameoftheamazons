@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.a9b49474.css",
-    "main.js": "/static/js/main.85131ac2.js",
-    "static/media/amazonessvillage-tf05-jp-vg.png": "/static/media/amazonessvillage-tf05-jp-vg.3d767600cc91b684206e.png",
-    "static/media/Amazoness1.jpg": "/static/media/Amazoness1.81e0ebec67630cbca165.jpg",
-    "static/media/Avatar.jpg": "/static/media/Avatar.8acf63113c7436abfcc1.jpg",
-    "static/media/Avatar2.jpg": "/static/media/Avatar2.fa1b03860dc92a9c52dc.jpg",
-    "static/media/Amazoness2.jpg": "/static/media/Amazoness2.07883cc1973da495ea09.jpg",
-    "index.html": "/index.html",
-    "main.a9b49474.css.map": "/static/css/main.a9b49474.css.map",
-    "main.85131ac2.js.map": "/static/js/main.85131ac2.js.map"
+    "main.css": "/gameoftheamazons/static/css/main.ca098db4.css",
+    "main.js": "/gameoftheamazons/static/js/main.97a1e2ac.js",
+    "static/media/amazonessvillage-tf05-jp-vg.png": "/gameoftheamazons/static/media/amazonessvillage-tf05-jp-vg.3d767600cc91b684206e.png",
+    "static/media/Amazoness1.jpg": "/gameoftheamazons/static/media/Amazoness1.81e0ebec67630cbca165.jpg",
+    "static/media/Avatar.jpg": "/gameoftheamazons/static/media/Avatar.8acf63113c7436abfcc1.jpg",
+    "static/media/Avatar2.jpg": "/gameoftheamazons/static/media/Avatar2.fa1b03860dc92a9c52dc.jpg",
+    "static/media/Amazoness2.jpg": "/gameoftheamazons/static/media/Amazoness2.07883cc1973da495ea09.jpg",
+    "index.html": "/gameoftheamazons/index.html",
+    "main.ca098db4.css.map": "/gameoftheamazons/static/css/main.ca098db4.css.map",
+    "main.97a1e2ac.js.map": "/gameoftheamazons/static/js/main.97a1e2ac.js.map"
   },
   "entrypoints": [
-    "static/css/main.a9b49474.css",
-    "static/js/main.85131ac2.js"
+    "static/css/main.ca098db4.css",
+    "static/js/main.97a1e2ac.js"
   ]
 }
